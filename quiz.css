@@ -1,0 +1,28 @@
+#canvas {
+    /*display:block;
+    margin:1em auto;*/
+     background-image: url("../__QUIZ/images/crosshatch.jpg");
+}
+
+.basicDiv {
+    background-image: url("../__QUIZ/images/crosshatch.jpg");
+    width: 1000px;
+    height:100px;
+    /*border: 1px solid red;*/
+}
+
+.basicSpan {
+    /* from http://line25.com/tutorials/create-a-letterpress-effect-with-css-text-shadow */
+    /* background: #474747 url(bg.png); */
+    float: right;
+    margin-right: 2em;
+    margin-top: .15em;
+    /* Anaheim, from google web fonts */
+    font: 55px Anaheim, Tahoma, Helvetica, Arial, Sans-Serif;
+    color: #aaa;
+    text-shadow: 0px 2px 5px #2D2;
+}
+
+.wildCardImage {
+    margin: 25px 0px 0px 2px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="quiz.css" type="text/css"><link>
+    <link href='http://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+    <script src="plumbing.js"></script>
+    <script src="quiz.js"></script>
+    <script src="questions.js"></script>
+    <title>quiz!</title>
+
+</head>
+
+<body onload='_quizApp.startGame();'>
+<div id='headerDiv' class='basicDiv'>
+    
+        <img src="../__QUIZ/images/phone.gif" id='friendCard' class='wildCardImage' alt='call a friend' title='call a friend' style="margin-left:6.5em !important"/>
+        <img src="../__QUIZ/images/public.gif" id='audienceCard' class='wildCardImage' alt='ask the audience' title='ask the audience' />
+        <img src="../__QUIZ/images/Scissors.gif" id='removalCard' class='wildCardImage' alt='remove two answers' title='remove two answers' />
+     
+    <span id='pointsLabel' class='basicSpan'>O points</span>
+</div>
+<canvas id="canvas" class="_canvas" width="1000" height='800'>
+    
+    
+</canvas>
+
+</body>
+</html>
